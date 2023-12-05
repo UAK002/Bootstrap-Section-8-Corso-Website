@@ -35,8 +35,8 @@ $button-padding-x: 30px;
 $button-padding-y: 10px;
 
 $btn-border-radius: $button-radius;
-$btn-border-radius-x: $button-radius;
-$btn-border-radius-y: $button-radius;
+$btn-border-radius-sm: $button-radius;
+$btn-border-radius-lg: $button-radius;
 
 $btn-padding-x: $button-padding-x;
 $btn-padding-x-sm: $button-padding-x;
@@ -48,6 +48,6 @@ $btn-padding-y-lg: $button-padding-y;
 
 $navbar-toggler-border-radius: 5px;
 
-$heading-font-weight: bold;
+$headings-font-weight: bold;
 
 @import '../node_modules/bootstrap/scss/bootstrap';
