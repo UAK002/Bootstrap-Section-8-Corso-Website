@@ -4,9 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/font-awesome.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/styles.css" />
@@ -14,7 +17,95 @@
     <title>Corso Training</title>
   </head>
   <body>
-    <h1>Corso Training Website</h1>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="images/logo.png" alt="" width="150" />
+        </a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-label="Toggle Navigation"
+          aria-expanded="false"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item" aria-current="page">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item" aria-current="page">
+              <a href="discover.html" class="nav-link">Discover</a>
+            </li>
+            <li class="nav-item" aria-current="page">
+              <a href="summary.html" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item" aria-current="page">
+              <a href="takeaways.html" class="nav-link">Takeaways</a>
+            </li>
+            <li class="nav-item" aria-current="page">
+              <a href="subscribe.html" class="nav-link">Subscribe</a>
+            </li>
+          </ul>
+          <span class="nav-item">
+            <span class="fa-stack">
+              <a href="#"><i class="fas fa-circle fa-stack-2x"></i></a>
+              <a href="#"
+                ><i class="fab fa-facebook-f fa-stack-1x text-white"></i
+              ></a>
+            </span>
+            <span class="fa-stack">
+              <a href="#"><i class="fas fa-circle fa-stack-2x"></i></a>
+              <a href="#"
+                ><i class="fab fa-twitter fa-stack-1x text-white"></i
+              ></a>
+            </span>
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    <!--End Of Navbar -->
+
+    <!-- Header -->
+
+    <header class="header vh-100 py-7">
+      <div class="container">
+        <div class="row mb-5 text-center">
+          <div class="col-12 text-container">
+            <h1 class="display-2 text-white mt-3">
+              Explore Our Training and Seminar Videos
+            </h1>
+            <p class="lead text-white w-75 m-auto mb-4">
+              Whether you're a beginner or an experienced professional, our
+              carefully curated content will empower you to enhance your skills
+              and expand your knowledge
+            </p>
+            <a href="#register" class="btn btn-primary text-uppercase"
+              >Register</a
+            >
+            <a
+              href="#register"
+              class="btn btn-outline-light text-white text-uppercase"
+              >Discover</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- End of Header -->
+
+    <!-- 
+
+
+
+    -->
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
