@@ -22,13 +22,13 @@ $spacers: (
 ) !default;
 
 // Heading Bottom Margin
-$heading-margin-bottom: $spacer * 1;
+$headings-margin-bottom: $spacer * 1;
 
 // Line Height
 $line-height-base: 1.7;
 
 // navbar
-$navbar-nav-link-padding: 0.8rem;
+$navbar-nav-link-padding-x: 0.8rem;
 $navbar-padding-y: 1rem;
 $navbar-dark-color: #fff;
 
@@ -52,6 +52,6 @@ $btn-padding-y-lg: $button-padding-y;
 $navbar-toggler-border-radius: 5px;
 
 // Heading Font Weight
-$heading-font-weight: bold;
+$headings-font-weight: bold;
 
 @import '../node_modules/bootstrap/scss/bootstrap';
